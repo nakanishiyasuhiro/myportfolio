@@ -1,4 +1,4 @@
-@media screen and (max-width:639px) {
+@media (max-width:670px) {
   
 共通項目をここに書いていく。
 
@@ -24,11 +24,12 @@ nav{
 }
 
 #profile{
-
+  height: 1038px;
+  background-color: white;
 }
 
 .probox{
-
+  width: 414px;
 }
 
 .top-profile{
@@ -57,15 +58,19 @@ nav{
 }
 
 .pro-right{
+  width: 30%;
+}
 
+.pro-right h3{
+  font-size: 10px;
 }
 
 #works{
-
+  height: 850px;
 }
 
 .port{
-
+  grid-template-columns: none;
 }
 
 .worksport{
@@ -89,20 +94,23 @@ nav{
 }
 
 #other{
-
+  height: 1440px;
+}
 }
 
 .other-text{
 
 }
 .other-box{
-
+  flex-direction: column;
 }
 .other-left{
-
+  width: auto;
 }
 .other-right{
-
+  margin-left: 0;
+  width: auto;
+  margin-top: 50px;
 }
 .formbox h3{
 
