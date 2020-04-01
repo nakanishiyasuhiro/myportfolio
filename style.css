@@ -38,7 +38,7 @@ header h1{
 }
 .probox{
   height: 90vh;
-  width: 1200px;
+  width: 1286px;
   margin: 0 auto;
   background-color: white;
 }
@@ -151,7 +151,7 @@ header h1{
 .other-box{
   display: flex;
   justify-content: center;
-  margin: 0 30px;
+  margin: 0 80px;
   padding-top: 20px;
   background-color:rgba(255,255,255,0.8);
   box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
@@ -196,7 +196,7 @@ header h1{
 }
 
 .formbox{
-  width: 800px;
+  width: 600px;
   text-align: center;
   margin: 0 auto;
 }
