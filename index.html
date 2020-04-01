@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <title>nakanishi'pf</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="top-title">nakanishi's portforio</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#"><h3 style="font-family: cursive;">nakanishi's portforio</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-home"></i> Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#profile"><i class="fas fa-user-secret"></i></i> Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works"><i class="fas fa-business-time"></i> Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#other" ><i class="fas fa-info-circle"></i> other</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div id="profile" class="profile">
+    <div class="probox">
+      <h2 class="top-profile">Profile</h2>
+      <div class="pro-all">
+        <div class="pro-left">
+          <img src="img/profile.jpg">
+          <div class="sns">
+            <a href="https://twitter.com/@gjHj9W9VkDbHB0z" target="_blank"><img src="img/twitter.png" ></a>
+            <a href="https://www.facebook.com/inazumayasu" target="_blank"><img src="img/facebook.png"></a>
+          </div>
+        </div>
+        <div class="pro-right">
+          <h3>中西 康博(なかにし やすひろ)</h3>
+          <p>1988年12月31日生(31歳)</p>
+          <br>
+          <p class="other-text">skill set</p>
+          <p>言語<br>HTML, CSS, Haml・SCSS, JavaScript, Ruby, PHP, SQL</p>
+          <p>フレームワーク<br>Rails, Laravel</p>
+          <p>ツール<br>Git, docker, AWS</p>
+          <p>OS<br>Linux</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="works" class="works">
+    <h2>Works</h2>
+      <div class="port">
+        <div class="worksport">
+          <img src="img/portfolio.png" class="portfolio_img">
+          <p>portfolio</p>
+        </div>
+        <div class="worksport">
+          <img src="img/prolog.png" class="prolog_img">
+          Ruby on Rails<br>
+          <p>Prolog</p>
+        </div>
+        <div class="worksport">
+          <img src="img/laravel.png" class="laravel_img">
+          <p>Laravel（開発中）</p>
+        </div>
+      </div>
+  </div>
+
+  <div id="other" class="other">
+    <h2 class="other-text">Other</h2>
+    <div class="other-box">
+      <div class="other-left">
+        <h4>経歴</h4>
+        <p>2007年3月  京都府立久御山高等学校卒業<br>(高校サッカー全国大会出場、近畿大会第3位)</p>
+        <p>2011年4月  びわこ成蹊スポーツ大学卒業<br>(中学校・高校の教員免許取得)</p>
+        <p>2012年4月  大阪国税局に採用</p>
+        <p>2013年7月  水口税務署で法人税一般調査を経験</p>
+        <p>2017年7月  右京税務署で法人税特別調査を経験</p>
+        <p>2018年7月  大阪国税局査察部で査察調査を経験</p>
+        <p>2020年1月  TECH::CAMP第70期生</p>
+        <h4>趣味</h4>
+        <p>サッカー・カラオケ・人と話すこと</p>
+        <p></p>
+      </div>
+
+      <div class="other-right">
+        <div class="formbox">
+          <h3 class="other-text">Contact</h3>
+          <div class="line"></div>
+          <div class="contactbox">        
+            <div class="formBox container">
+              <div class="nameForm row">
+                <div class="formRight col-sm-4">
+                  <p>お名前</p>
+                  <span class="formRed">必須</span>
+                </div>
+                <input class="text-test col-sm-8" placeholder="山田太郎" type="text">
+              </div>
+              <div class="nameForm row">
+                <div class="formRight col-sm-4">
+                  <p>Email</p>
+                  <p  class="formRed">必須</p>
+                </div>
+                <input class="text-test col-sm-8" placeholder="example.text" type="text">
+              </div>
+              <div class="detailForm row">
+                <p class="col-sm-4">内容</p>
+                <textarea class="col-sm-8 textarea-text" name="" id="" cols="30" rows="10" placeholder="企業様のHPなどもございましたら、こちらにてお送り頂けますと幸いです。"></textarea>
+              </div>
+              <div class="submit">
+                <input class="submit-test" type="submit" value="送信">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p> &copy;2020 nakanishi yasuhiro</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

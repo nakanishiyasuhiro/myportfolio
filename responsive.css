@@ -1,0 +1,134 @@
+@media screen and (max-width:639px) {
+  
+共通項目をここに書いていく。
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  
+}
+
+header h1{
+  font-size: 45px;
+}
+
+nav{
+  width: 414px;
+}
+
+.navbar-nav{
+
+}
+
+#profile{
+
+}
+
+.probox{
+
+}
+
+.top-profile{
+  width: 414px;
+}
+
+.pro-all{
+  width: 100%;
+  flex-direction: column;
+}
+
+.pro-left{
+
+}
+
+.pro-left img{
+
+}
+
+.sns{
+
+}
+
+.sns img{
+
+}
+
+.pro-right{
+
+}
+
+#works{
+
+}
+
+.port{
+
+}
+
+.worksport{
+
+}
+
+.worksport p{
+
+}
+
+.portfolio_img{
+
+}
+
+.prolog_img{
+
+}
+
+.laravel_img{
+
+}
+
+#other{
+
+}
+
+.other-text{
+
+}
+.other-box{
+
+}
+.other-left{
+
+}
+.other-right{
+
+}
+.formbox h3{
+
+}
+.text-test{
+
+}
+.nameForm{
+
+}
+.formRight{
+
+}
+.formRed{
+
+}
+.submit{
+
+}
+.submit-test{
+
+}
+.footer{
+
+}
+.footer p{
+
+}
+}

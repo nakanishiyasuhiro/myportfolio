@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+
+/* ヘッダー */
+header{
+  width: 100%;
+  height: 100vh;
+  padding-top: 67px;
+  background-image: url(img/background1.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+header h1{
+  color:black;
+  font-size: 70px;
+  text-align: center;
+  line-height: 700px;
+  font-family: cursive;
+}
+
+/* ナブバー */
+.navbar-nav{
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+/* プロフィール */
+#profile{
+  height: 100vh;
+  background-color: black;
+  padding: 40px 0;
+}
+.probox{
+  height: 90vh;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+.top-profile{
+  text-align: center;
+  padding: 20px 0px;
+  font-family: cursive;
+  font-size: 30px;
+}
+.pro-all{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-left: 50px;
+  border-radius: 10px;
+}
+.pro-left{
+  width: 40%;
+}
+.pro-left img{
+  border-radius: 50%;
+  width: 300px;
+}
+.sns{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.sns img{
+  border-radius: 50%;
+  width: 50px;
+  margin-left: 10px;
+}
+.pro-right{
+  width: 60%;
+  font-size: 18px;
+  padding-left: 50px;
+}
+
+/* 成果物 */
+#works{
+  height: 75vh;
+  padding-top: 60px;
+  text-align: center;
+  font-family: cursive;
+}
+.port{
+  margin: 30px 80px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  height: 400px;
+  gap: 30px;
+  font-family: serif;
+}
+.worksport{
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
+  font-size: 25px;
+}
+.worksport p{
+  padding-top: 5px;
+}
+.portfolio_img{
+  width: 100%;
+  height: 50%;
+  border: solid 1px gainsboro;
+}
+.prolog_img{
+  width: 100%;
+  height: 50%;
+  border: solid 1px gainsboro;
+}
+
+.laravel_img{
+  width: 100%;
+  height: 50%;
+  border: solid 1px gainsboro;
+}
+
+
+/* その他 */
+#other{
+  height: 100vh;
+  background-image: url(img/siba.jpg);
+}
+
+.other-text{
+  text-align: center;
+  padding-top: 20px;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.other-box{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.other-left{
+  background-color:rgba(255,255,255,0.8);
+  width: 500px;
+  height: 600px;
+  margin-right: 60px;
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  font-size: 18px;
+}
+
+.other-right{
+  background-color:rgba(255,255,255,0.8);
+  width: 500px;
+  height: 600px;
+  margin-left: 60px;
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+
+/* その他 */
+
+.formbox h3{
+  text-align: center;
+}
+
+.text-test{
+  height: 50px;
+}
+
+.nameForm{
+  margin: 30px 0px;
+}
+
+.formRight{
+  display: flex;
+  
+}
+
+.formRed{
+  margin-left: 10px;
+  background-color: red;
+  color: aliceblue;
+  padding: 1px 5px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+
+.submit{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.submit-test{
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: gainsboro;
+}
+
+/* フッター */
+.footer{
+  background-color: gainsboro;
+  height: 200px;
+  bottom: 0;
+  text-align: center;
+  line-height: 200px;
+}
+.footer p{
+  margin-bottom: 0px;
+}
