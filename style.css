@@ -67,7 +67,7 @@ header h1{
 .sns{
   display: flex;
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 45px;
 }
 .sns img{
   border-radius: 50%;
@@ -95,12 +95,27 @@ header h1{
   gap: 30px;
   font-family: serif;
 }
+.port p{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
 .worksport{
   box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
   font-size: 25px;
 }
 .worksport p{
-  padding-top: 5px;
+  padding-top: 2px;
+}
+.worksport i{
+  font-size: 30px;
+  color: black;
+}
+.worksport span{
+  font-size: 20px;
+  color: black;
+}
+.worksport a:hover{
+  text-decoration: none;
 }
 .portfolio_img{
   width: 100%;
@@ -136,77 +151,63 @@ header h1{
 .other-box{
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding-top: 50px;
+  margin: 0 30px;
+  padding-top: 20px;
+  background-color:rgba(255,255,255,0.8);
+  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
+  height: 700px;
 }
 
 .other-left{
-  background-color:rgba(255,255,255,0.8);
-  width: 500px;
   height: 600px;
   margin-right: 60px;
-  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
   padding: 20px;
   font-size: 18px;
 }
 
 .other-right{
-  background-color:rgba(255,255,255,0.8);
   width: 500px;
   height: 600px;
   margin-left: 60px;
-  box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.2);
   padding: 20px;
 }
 
+.soccer{
+  width: 500px;
+  height: 300px;
+}
 
-/* その他 */
+.kokuzei{
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+}
 
-.formbox h3{
+/* 連絡先 */
+.contact{
+  height: 400px;
+  padding-top: 50px;
+}
+
+.contact-text{
   text-align: center;
+  font-family: cursive;
+  font-size: 30px;
 }
 
-.text-test{
-  height: 50px;
-}
-
-.nameForm{
-  margin: 30px 0px;
-}
-
-.formRight{
-  display: flex;
-  
-}
-
-.formRed{
-  margin-left: 10px;
-  background-color: red;
-  color: aliceblue;
-  padding: 1px 5px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-
-.submit{
+.formbox{
+  width: 800px;
   text-align: center;
-  margin-top: 15px;
-}
-
-.submit-test{
-  padding: 10px 20px;
-  border-radius: 3px;
-  background-color: gainsboro;
+  margin: 0 auto;
 }
 
 /* フッター */
 .footer{
   background-color: gainsboro;
-  height: 200px;
+  height: 100px;
   bottom: 0;
   text-align: center;
-  line-height: 200px;
+  line-height: 100px;
 }
 .footer p{
   margin-bottom: 0px;

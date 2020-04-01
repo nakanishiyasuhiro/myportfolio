@@ -51,6 +51,7 @@
           <div class="sns">
             <a href="https://twitter.com/@gjHj9W9VkDbHB0z" target="_blank"><img src="img/twitter.png" ></a>
             <a href="https://www.facebook.com/inazumayasu" target="_blank"><img src="img/facebook.png"></a>
+            <a href="https://github.com/nakanishiyasuhiro" target="_blank"><img src="img/git.jpg"></a>
           </div>
         </div>
         <div class="pro-right">
@@ -72,17 +73,38 @@
     <h2>Works</h2>
       <div class="port">
         <div class="worksport">
-          <img src="img/portfolio.png" class="portfolio_img">
-          <p>portfolio</p>
+          <a href="https://naughty-ritchie-c268e1.netlify.com/" target="blank">
+            <img src="img/portfolio.png" class="portfolio_img">
+          </a>
+            <p>portfolio</p>
+            <p>自身のポートフォリオサイトです。</p>
+            <p>HTML/CSS/bootstrap4</p>
+            <br>
+            <a href="https://github.com/nakanishiyasuhiro/myportfolio" target="_blank">
+            <i class="fab fa-github-square"></i> <span>Git Hub</span>
+            </a>
         </div>
         <div class="worksport">
-          <img src="img/prolog.png" class="prolog_img">
-          Ruby on Rails<br>
-          <p>Prolog</p>
+          <a href="https://www.programminglogs.tech/" target="blank">
+            <img src="img/prolog.png" class="prolog_img">
+          </a>
+            <p>Prolog</p>
+            <p>Ruby on Railsでプログラミング知識の<br>記録アプリを作りました。</p>
+            <p>HTML/CSS/Ruby/Rails/JS/AWS</p>
+            <a href="https://github.com/nakanishiyasuhiro/prolog" target="_blank">
+              <i class="fab fa-github-square"></i> <span>Git Hub</span>
+            </a>
         </div>
         <div class="worksport">
-          <img src="img/laravel.png" class="laravel_img">
-          <p>Laravel（開発中）</p>
+          <a href="http://18.178.147.81/" target="blank">
+            <img src="img/furima.png" class="laravel_img">
+          </a>
+            <p>フリマアプリ</p>
+            <p>スクールのチーム開発成果物で、<br>皆さんが見飽きてるやつです。</p>
+            <p>haml/sass/Ruby/Rails/JS/AWS</p>
+            <a href="https://github.com/nakanishiyasuhiro/freemarket_sample_70c" target="_blank">
+              <i class="fab fa-github-square"></i> <span>Git Hub</span>
+            </a>
         </div>
       </div>
   </div>
@@ -98,43 +120,53 @@
         <p>2013年7月  水口税務署で法人税一般調査を経験</p>
         <p>2017年7月  右京税務署で法人税特別調査を経験</p>
         <p>2018年7月  大阪国税局査察部で査察調査を経験</p>
-        <p>2020年1月  TECH::CAMP第70期生</p>
+        <p>2020年1月  プログラミングスクール TECH::CAMP第70期生</p>
+        <br>
         <h4>趣味</h4>
-        <p>サッカー・カラオケ・人と話すこと</p>
-        <p></p>
+        <p><i class="far fa-futbol"></i> サッカー・フットサル</p>
+        <p><i class="fas fa-music"></i> カラオケ（EXILEオーディション一回戦敗退！笑）</p>
+        <p><i class="fas fa-user-ninja"></i> 人と話すこと。</p>
       </div>
-
       <div class="other-right">
-        <div class="formbox">
-          <h3 class="other-text">Contact</h3>
-          <div class="line"></div>
-          <div class="contactbox">        
-            <div class="formBox container">
-              <div class="nameForm row">
-                <div class="formRight col-sm-4">
-                  <p>お名前</p>
-                  <span class="formRed">必須</span>
+        <img src="img/soccer.jpg" class="soccer">
+        <img src="img/kokuzei.jpg" class="kokuzei">
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <h2 class="contact-text">Contact</h2>
+    <div class="formbox">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+              <input type="hidden" name="accessKey" value="a5621967-5544-4191-8627-6db42ef3a804">
+              <input type="hidden" name="subject" value="件名">
+              <input type="hidden" name="redirectTo" value="https://naughty-ritchie-c268e1.netlify.com/">
+              <div class="form-group row">
+                <label for="inputName" class="col-sm-4 col-form-label">お名前</label>
+                <div class="col-sm-8">
+                  <input type="text" name="name" class="form-control" id="inputName">
                 </div>
-                <input class="text-test col-sm-8" placeholder="山田太郎" type="text">
               </div>
-              <div class="nameForm row">
-                <div class="formRight col-sm-4">
-                  <p>Email</p>
-                  <p  class="formRed">必須</p>
+              <div class="form-group row">
+                <label for="inputEmail" class="col-sm-4 col-form-label">メールアドレス</label>
+                <div class="col-sm-8">
+                  <input type="text" name="email" class="form-control" id="inputEmail">
                 </div>
-                <input class="text-test col-sm-8" placeholder="example.text" type="text">
               </div>
-              <div class="detailForm row">
-                <p class="col-sm-4">内容</p>
-                <textarea class="col-sm-8 textarea-text" name="" id="" cols="30" rows="10" placeholder="企業様のHPなどもございましたら、こちらにてお送り頂けますと幸いです。"></textarea>
+              <div class="form-group row">
+                <label for="inputTextarea" class="col-sm-4 col-form-label">メッセージ</label>
+                <div class="col-sm-8">
+                  <textarea name="message" rows="3" class="form-control" id="inputTextarea"></textarea>
+                </div>
               </div>
-              <div class="submit">
-                <input class="submit-test" type="submit" value="送信">
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary mb-2">送信</button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
-  
       </div>
     </div>
   </div>

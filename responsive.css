@@ -1,4 +1,4 @@
-@media (max-width:670px) {
+@media screen and (max-width:639px) {
   
 共通項目をここに書いていく。
 
@@ -95,7 +95,6 @@ nav{
 
 #other{
   height: 1440px;
-}
 }
 
 .other-text{
