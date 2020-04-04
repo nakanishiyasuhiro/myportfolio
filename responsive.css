@@ -21,10 +21,6 @@ nav{
   width: 414px;
 }
 
-.navbar-nav{
-
-}
-
 .navbar{
   width: auto;
 }
@@ -58,17 +54,9 @@ nav{
   text-align: center;
 }
 
-.pro-left img{
-
-}
-
 .sns{
   margin-left: 0;
   padding: 0px 107px;
-}
-
-.sns img{
-  
 }
 
 .pro-right{
@@ -95,33 +83,9 @@ nav{
   width: 434px;
 }
 
-.worksport{
-
-}
-
-.worksport p{
-
-}
-
-.portfolio_img{
-
-}
-
-.prolog_img{
-
-}
-
-.laravel_img{
-
-}
-
 #other{
   height: 1430px;
   width: 600px;
-}
-
-.other-text{
-
 }
 
 .contact-text{
@@ -151,7 +115,5 @@ nav{
 .footer{
   width: 600px;
 }
-.footer p{
 
-}
 }
