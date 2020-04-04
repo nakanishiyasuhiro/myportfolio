@@ -5,10 +5,12 @@
 body{
   padding: 0;
   margin: 0;
+  width: auto;
 }
 
 header{
-  
+  width: 600px;
+  height: 800px;
 }
 
 header h1{
@@ -23,9 +25,18 @@ nav{
 
 }
 
+.navbar{
+  width: auto;
+}
+
 #profile{
   height: 1038px;
   background-color: white;
+  width: 600px;
+}
+
+#profile p{
+  width: 325px;
 }
 
 .probox{
@@ -39,10 +50,12 @@ nav{
 .pro-all{
   width: 100%;
   flex-direction: column;
+  padding: 0;
 }
 
 .pro-left{
-
+  width: 100%;
+  text-align: center;
 }
 
 .pro-left img{
@@ -50,27 +63,36 @@ nav{
 }
 
 .sns{
-
+  margin-left: 0;
+  padding: 0px 107px;
 }
 
 .sns img{
-
+  
 }
 
 .pro-right{
-  width: 30%;
+  width: 100%;
+  padding-left: 40px;
+  text-align: center;
 }
 
 .pro-right h3{
-  font-size: 10px;
+  font-size: 26px;
+  width: 345px;
+  margin-top: 25px;
 }
 
 #works{
-  height: 850px;
+  height: 1395px;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 0px;
 }
 
 .port{
   grid-template-columns: none;
+  width: 434px;
 }
 
 .worksport{
@@ -94,46 +116,40 @@ nav{
 }
 
 #other{
-  height: 1440px;
+  height: 1430px;
+  width: 600px;
 }
 
 .other-text{
 
 }
+
+.contact-text{
+  width: 600px;
+}
 .other-box{
   flex-direction: column;
+  display: block;
+  height: 700px;
 }
 .other-left{
   width: auto;
+  margin-right: 0;
 }
 .other-right{
-  margin-left: 0;
+  margin-left: -48px;
   width: auto;
-  margin-top: 50px;
+  margin-top: 70px;
 }
-.formbox h3{
-
+.other-right img{
+  margin-top: 10px;
 }
-.text-test{
-
-}
-.nameForm{
-
-}
-.formRight{
-
-}
-.formRed{
-
-}
-.submit{
-
-}
-.submit-test{
-
+.contact{
+  width: 600px;
+  height: 500px;
 }
 .footer{
-
+  width: 600px;
 }
 .footer p{
 
